@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet" />
+    <title>Welcome to Pilot Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- TODO: WIfi Icon -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-lock"></i>
+            <span>11%</span>
+            <!-- TODO: Battery Icon -->
+            <i class="fas fa-battery-quarter"></i>
+            <!-- TODO: Lightning Icon -->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to PilotTalk</h1>
+        <p class="welcome-header__text">If you have a PilotTalk Account, Login with your Pilot Code and Password.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input type="text" placeholder="Pilot Code" required minlength="5" />
+        <input type="password" placeholder="Password" required minlength="8" />
+        <input type="submit" value="Log In" />
+        <!-- <input type="submit" value="Sign Up" /> -->
+        <a href="#">Find Pilot Code or Password</a>
+    </form>
+
+    <!-- Script는 body 태그를 닫기전 항상 마지막에 위치한다. -->
+    <script src="https://kit.fontawesome.com/29ef2d9870.js" crossorigin="anonymous"></script>
+</body>
+</html>
