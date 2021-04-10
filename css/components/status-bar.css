@@ -1,4 +1,7 @@
 .status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center; /* space-between은 div박스의 크기가 다르면 예쁘게 위치하지 못함 */
   padding: 5px 3px;
