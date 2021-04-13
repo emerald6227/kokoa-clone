@@ -12,6 +12,12 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
 }
