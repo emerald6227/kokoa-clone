@@ -16,15 +16,22 @@
   margin-right: 20px;
 }
 
+.user-component__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
+  margin-bottom: 8px;
 }
 
 .user-component__subtitle {
-  margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
 }
 
 .user-component__avatar--xl {
