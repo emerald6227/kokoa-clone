@@ -129,6 +129,12 @@ table {
 }
 
 /* custom */
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 input:focus {
   outline: none;
 }
